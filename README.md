@@ -57,3 +57,6 @@ data/creditcard.csv
 7. Tune classification thresholds
 8. Interpret predictions using SHAP
 9. Export the best-performing model
+
+## Author
+Vinay Kumar

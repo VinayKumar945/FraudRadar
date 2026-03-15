@@ -32,3 +32,28 @@ Because the dataset may be large or licensing may vary, it is not included direc
 
 ```bash
 data/creditcard.csv
+```
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- scikit-learn
+- imbalanced-learn
+- XGBoost
+- SHAP
+- joblib
+- Jupyter Notebook
+
+## Workflow
+
+1. Load and explore the dataset
+2. Handle preprocessing for transaction features
+3. Split train and test datasets
+4. Handle class imbalance using SMOTE
+5. Train multiple models (Logistic Regression, Random Forest, XGBoost)
+6. Evaluate using ROC-AUC, PR-AUC, Precision, Recall, and F1-score
+7. Tune classification thresholds
+8. Interpret predictions using SHAP
+9. Export the best-performing model
